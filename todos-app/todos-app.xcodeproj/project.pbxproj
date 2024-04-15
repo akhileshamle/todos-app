@@ -15,6 +15,10 @@
 		F2461FD92BCDA7580077DDEE /* todos_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FD82BCDA7580077DDEE /* todos_appUITests.swift */; };
 		F2461FDB2BCDA7580077DDEE /* todos_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FDA2BCDA7580077DDEE /* todos_appUITestsLaunchTests.swift */; };
 		F2461FE92BCDA82E0077DDEE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F2461FE82BCDA82E0077DDEE /* ComposableArchitecture */; };
+		F2461FEF2BCDAA280077DDEE /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FEE2BCDAA280077DDEE /* TodoItemView.swift */; };
+		F2461FF12BCDAA6D0077DDEE /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FF02BCDAA6D0077DDEE /* Todo.swift */; };
+		F2461FF32BCDAFB40077DDEE /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FF22BCDAFB40077DDEE /* TodoList.swift */; };
+		F2461FF52BCDB1980077DDEE /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FF42BCDB1980077DDEE /* TodoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		F2461FD42BCDA7580077DDEE /* todos-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "todos-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2461FD82BCDA7580077DDEE /* todos_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todos_appUITests.swift; sourceTree = "<group>"; };
 		F2461FDA2BCDA7580077DDEE /* todos_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todos_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2461FEE2BCDAA280077DDEE /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
+		F2461FF02BCDAA6D0077DDEE /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		F2461FF22BCDAFB40077DDEE /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		F2461FF42BCDB1980077DDEE /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				F2461FBD2BCDA7550077DDEE /* todos_appApp.swift */,
+				F2461FEB2BCDAA010077DDEE /* TodoList */,
+				F2461FEA2BCDA9F60077DDEE /* TodoItem */,
 				F2461FBF2BCDA7550077DDEE /* ContentView.swift */,
 				F2461FC12BCDA7570077DDEE /* Assets.xcassets */,
 				F2461FC32BCDA7570077DDEE /* Preview Content */,
@@ -127,6 +137,24 @@
 				F2461FDA2BCDA7580077DDEE /* todos_appUITestsLaunchTests.swift */,
 			);
 			path = "todos-appUITests";
+			sourceTree = "<group>";
+		};
+		F2461FEA2BCDA9F60077DDEE /* TodoItem */ = {
+			isa = PBXGroup;
+			children = (
+				F2461FEE2BCDAA280077DDEE /* TodoItemView.swift */,
+				F2461FF02BCDAA6D0077DDEE /* Todo.swift */,
+			);
+			path = TodoItem;
+			sourceTree = "<group>";
+		};
+		F2461FEB2BCDAA010077DDEE /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				F2461FF22BCDAFB40077DDEE /* TodoList.swift */,
+				F2461FF42BCDB1980077DDEE /* TodoListView.swift */,
+			);
+			path = TodoList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2461FF32BCDAFB40077DDEE /* TodoList.swift in Sources */,
 				F2461FC02BCDA7550077DDEE /* ContentView.swift in Sources */,
+				F2461FF52BCDB1980077DDEE /* TodoListView.swift in Sources */,
 				F2461FBE2BCDA7550077DDEE /* todos_appApp.swift in Sources */,
+				F2461FEF2BCDAA280077DDEE /* TodoItemView.swift in Sources */,
+				F2461FF12BCDAA6D0077DDEE /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
