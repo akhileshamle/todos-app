@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2381D5F2BCF0AD1005DA8A5 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2381D5E2BCF0AD0005DA8A5 /* KeychainWrapper.swift */; };
+		F2381D612BCF0AF5005DA8A5 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2381D602BCF0AF5005DA8A5 /* KeychainItemAccessibility.swift */; };
 		F2461FBE2BCDA7550077DDEE /* todos_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FBD2BCDA7550077DDEE /* todos_appApp.swift */; };
 		F2461FC02BCDA7550077DDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2461FBF2BCDA7550077DDEE /* ContentView.swift */; };
 		F2461FC22BCDA7570077DDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2461FC12BCDA7570077DDEE /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2381D5E2BCF0AD0005DA8A5 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		F2381D602BCF0AF5005DA8A5 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		F2461FBA2BCDA7550077DDEE /* todos-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todos-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2461FBD2BCDA7550077DDEE /* todos_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todos_appApp.swift; sourceTree = "<group>"; };
 		F2461FBF2BCDA7550077DDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2381D5D2BCF0AC4005DA8A5 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				F2381D5E2BCF0AD0005DA8A5 /* KeychainWrapper.swift */,
+				F2381D602BCF0AF5005DA8A5 /* KeychainItemAccessibility.swift */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
 		F2461FB12BCDA7540077DDEE = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				F2461FBD2BCDA7550077DDEE /* todos_appApp.swift */,
+				F2381D5D2BCF0AC4005DA8A5 /* KeychainWrapper */,
 				F2461FEB2BCDAA010077DDEE /* TodoList */,
 				F2461FEA2BCDA9F60077DDEE /* TodoItem */,
 				F2461FBF2BCDA7550077DDEE /* ContentView.swift */,
@@ -296,7 +310,9 @@
 				F2461FF32BCDAFB40077DDEE /* TodoList.swift in Sources */,
 				F2461FC02BCDA7550077DDEE /* ContentView.swift in Sources */,
 				F2461FF52BCDB1980077DDEE /* TodoListView.swift in Sources */,
+				F2381D5F2BCF0AD1005DA8A5 /* KeychainWrapper.swift in Sources */,
 				F2461FBE2BCDA7550077DDEE /* todos_appApp.swift in Sources */,
+				F2381D612BCF0AF5005DA8A5 /* KeychainItemAccessibility.swift in Sources */,
 				F2461FEF2BCDAA280077DDEE /* TodoItemView.swift in Sources */,
 				F2461FF12BCDAA6D0077DDEE /* Todo.swift in Sources */,
 			);
